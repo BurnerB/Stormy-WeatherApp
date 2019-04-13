@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
 
         darkSky.setMovementMethod(LinkMovementMethod.getInstance());
 
-        String ApIKey = "ca8db57c66b53e36148828904a84e2a1";
+        String ApIKey = "7c3fd16e8fd84cc1f6381a34f00a8e2d";
 
 
         String forecastURL = "https://api.darksky.net/forecast/" + ApIKey
