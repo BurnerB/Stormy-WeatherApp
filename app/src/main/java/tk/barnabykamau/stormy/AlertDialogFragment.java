@@ -12,9 +12,9 @@ public class AlertDialogFragment extends DialogFragment {
         Context context = getActivity();
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
 
-        builder.setTitle(getString(R.string.error_Title))
-        .setMessage(getString(R.string.error_message))
-        .setPositiveButton(getString(R.string.error_button_okay_text),null);
+        builder.setTitle(R.string.error_title)
+                .setMessage(R.string.error_message)
+                .setPositiveButton(R.string.error_button_ok_text, null);
 
         return builder.create();
     }
